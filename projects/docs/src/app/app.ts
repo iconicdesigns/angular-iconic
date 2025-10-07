@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { IconicButtonModule } from 'angular-iconic';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, IconicButtonModule],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

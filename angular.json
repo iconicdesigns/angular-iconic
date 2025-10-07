@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "projects/angular-iconic",
       "sourceRoot": "projects/angular-iconic/src",
-      "prefix": "lib",
+      "prefix": "iconic",
       "architect": {
         "build": {
           "builder": "@angular/build:ng-packagr",
