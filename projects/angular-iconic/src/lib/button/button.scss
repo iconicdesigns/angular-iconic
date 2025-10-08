@@ -1,22 +1,26 @@
 :host {
     &.iconic-button {
-        background-color: var(--md-sys-color-primary);
+        background-color: #2f323f;
 
         border-width: 1px;
         border-style: solid;
-        border-color: var(--md-sys-color-primary);
+        border-color: #2f323f;
 
         font-family: inherit;
         font-weight: 500;
         color: white;
 
-        border-radius: calc(1 * 0.5rem);
+        border-radius: calc(1 * 0.35rem);
         line-height: --iconic-line-height-normal;
-        padding: calc(var(--iconic-form-control-padding-inline) * 1) calc(var(--iconic-form-control-padding-inline) * 1);
+        padding: calc(var(--iconic-form-control-padding-inline) * 0.75) calc(var(--iconic-form-control-padding-inline) * 1);
 
         cursor: pointer;
 
         transition: background-color 0.3s, border-color 0.3s;
+
+        &:hover { 
+            background-color: #23252e;
+        }
 
         &.iconic-button-small {
             font-size: var(--iconic-font-size-sm);
@@ -28,6 +32,11 @@
 
         &.iconic-button-large {
             font-size: var(--iconic-font-size-lg);
+        }
+
+        .iconic-button-content-wrapper { 
+            display: flex;
+            column-gap: calc(var(--iconic-spacing) * 2);
         }
     }
 }
