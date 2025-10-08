@@ -14,12 +14,19 @@
         line-height: --iconic-line-height-normal;
         padding: calc(var(--iconic-form-control-padding-inline) * 0.75) calc(var(--iconic-form-control-padding-inline) * 1);
 
+        user-select: none;
         cursor: pointer;
 
         transition: background-color 0.3s, border-color 0.3s;
 
-        &:hover { 
+        &:disabled {
+            opacity: .5;
+            cursor: not-allowed;
+        }
+
+        &:hover:not(:disabled) {
             background-color: #23252e;
+            border-color: #23252e;
         }
 
         &.iconic-button-small {
@@ -34,7 +41,7 @@
             font-size: var(--iconic-font-size-lg);
         }
 
-        .iconic-button-content-wrapper { 
+        .iconic-button-content-wrapper {
             display: flex;
             column-gap: calc(var(--iconic-spacing) * 2);
         }
