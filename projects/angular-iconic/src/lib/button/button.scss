@@ -1,12 +1,19 @@
 :host {
-    background-color: #fa702a;
-    border: solid 1px #fa702a;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
+    background-color: var(--md-sys-color-primary);
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--md-sys-color-primary);
+
+    font-family: inherit;
     font-size: 16px;
     font-weight: 400;
+    color: white;
+
+    padding: 10px 20px;
+    border-radius: 20px;
+   
+    cursor: pointer;
+    
     transition: background-color 0.3s, border-color 0.3s;
-    font-family: inherit;
 }

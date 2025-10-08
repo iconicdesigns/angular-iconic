@@ -5,6 +5,9 @@
     "@angular/common": "^20.3.0",
     "@angular/core": "^20.3.0"
   },
+  "scripts": {
+    "build:tokens": "style-dictionary build --config style-dictionary.config.mjs"
+  },
   "dependencies": {
     "tslib": "^2.3.0"
   },
@@ -13,5 +16,8 @@
     ".": {
       "sass": "./src/_index.scss"
     }
+  },
+  "devDependencies": {
+    "style-dictionary": "^5.1.0"
   }
 }

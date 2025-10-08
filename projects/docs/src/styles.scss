@@ -1,1 +1,6 @@
-@use 'angular-iconic';
+@use 'angular-iconic' as iconic;
+
+body {
+    //background-color: iconic.$color-primary;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
