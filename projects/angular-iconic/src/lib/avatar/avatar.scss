@@ -1,0 +1,18 @@
+.iconic-avatar {
+    border-radius: 999px;
+    width: 2.75rem;
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: #ffffff;
+    background-color: #23252e;
+    user-select: none;
+
+    span {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        font-size: 1.25rem;
+    }
+}

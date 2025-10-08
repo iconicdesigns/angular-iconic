@@ -1,0 +1,35 @@
+.iconic-tag {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: #ffffff;
+    background-color: #23252e;
+    user-select: none;
+
+    &.iconic-tag-sm {
+        border-radius: .2rem;
+        column-gap: calc(var(--iconic-spacing));
+        padding: calc(var(--iconic-spacing) * 1) calc(var(--iconic-spacing) * 2);
+        font-size: var(--iconic-font-size-xs);
+    }
+
+    &.iconic-tag-md {
+        border-radius: .2rem;
+        column-gap: calc(var(--iconic-spacing));
+        padding: calc(var(--iconic-spacing) * 1) calc(var(--iconic-spacing) * 2);
+        font-size: var(--iconic-font-size-xs);
+    }
+
+    &.iconic-tag-lg {
+        border-radius: .2rem;
+        column-gap: calc(var(--iconic-spacing));
+        padding: calc(var(--iconic-spacing) * 1) calc(var(--iconic-spacing) * 2);
+        font-size: var(--iconic-font-size-xs);
+    }
+
+    &.iconic-tag-content {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+}

@@ -16,7 +16,7 @@ export class IconicButton {
     };
   }
 
-  size = input<'small' | 'medium' | 'large'>('medium');
+  size = input<'sm' | 'md' | 'lg'>('md');
   variant = input<'neutral' | 'primary' | 'secondary' | 'teritary'>('neutral');
   apperance = input<'accent' | 'outlined' | 'basic'>('accent');
 }

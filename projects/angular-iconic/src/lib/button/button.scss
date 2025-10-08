@@ -29,19 +29,23 @@
             border-color: #23252e;
         }
 
-        &.iconic-button-small {
+        &.iconic-button-sm {
             font-size: var(--iconic-font-size-sm);
         }
 
-        &.iconic-button-medium {
+        &.iconic-button-md {
             font-size: var(--iconic-font-size-md);
         }
 
-        &.iconic-button-large {
+        &.iconic-button-lg {
             font-size: var(--iconic-font-size-lg);
         }
 
-        .iconic-button-content-wrapper {
+        &[pill] { 
+            border-radius: 999px;
+        }
+
+        > .iconic-button-content-wrapper {
             display: flex;
             column-gap: calc(var(--iconic-spacing) * 2);
         }
