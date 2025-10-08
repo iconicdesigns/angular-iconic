@@ -34,4 +34,14 @@
   --md-sys-color-on-surface-variant: #49454f;
   --md-sys-color-outline: #79747e;
   --md-sys-color-outline-variant: #cac4d0;
+
+  --iconic-line-height-normal: 1.6;
+  --iconic-form-control-padding-inline: 1em;
+
+  --iconic-font-scale: 1rem; 
+  --iconic-font-size-xs: round(calc(var(--iconic-font-size-sm) / 1.125), 1px);
+  --iconic-font-size-sm: round(calc(var(--iconic-font-scale) / 1.125), 1px);
+  --iconic-font-size-md: round(calc(var(--iconic-font-scale)), 1px);
+  --iconic-font-size-lg: round(calc(var(--iconic-font-scale) * 1.125), 1px);
+  --iconic-font-size-xl: round(calc(var(--iconic-font-size-lg) * 1.125), 1px);
 }

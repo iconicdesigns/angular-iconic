@@ -1,19 +1,33 @@
 :host {
-    background-color: var(--md-sys-color-primary);
-    
-    border-width: 1px;
-    border-style: solid;
-    border-color: var(--md-sys-color-primary);
+    &.iconic-button {
+        background-color: var(--md-sys-color-primary);
 
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 400;
-    color: white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: var(--md-sys-color-primary);
 
-    padding: 10px 20px;
-    border-radius: 20px;
-   
-    cursor: pointer;
-    
-    transition: background-color 0.3s, border-color 0.3s;
+        font-family: inherit;
+        font-weight: 500;
+        color: white;
+
+        border-radius: 5px;
+        line-height: --iconic-line-height-normal;
+        padding: calc(var(--iconic-form-control-padding-inline) * 1) calc(var(--iconic-form-control-padding-inline) * 1);
+
+        cursor: pointer;
+
+        transition: background-color 0.3s, border-color 0.3s;
+
+        &.iconic-button-small {
+            font-size: var(--iconic-font-size-sm);
+        }
+
+        &.iconic-button-medium {
+            font-size: var(--iconic-font-size-md);
+        }
+
+        &.iconic-button-large {
+            font-size: var(--iconic-font-size-lg);   
+        }
+    }
 }
