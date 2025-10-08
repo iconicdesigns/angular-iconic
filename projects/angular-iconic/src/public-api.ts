@@ -7,3 +7,6 @@ export * from './lib/avatar/avatar.module';
 
 export * from './lib/tag/tag';
 export * from './lib/tag/tag.module';
+
+export * from './lib/card/card';
+export * from './lib/card/card.module';

@@ -1,0 +1,6 @@
+.iconic-card {
+    border: solid 1px #eee;
+    border-radius: calc(var(--iconic-spacing) * 2);
+    padding: calc(var(--iconic-spacing) * 5);
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.05), 0 1px 2px -1px rgb(0 0 0 / 0.05);
+}
