@@ -10,7 +10,7 @@
         font-weight: 500;
         color: white;
 
-        border-radius: 5px;
+        border-radius: calc(1 * 0.5rem);
         line-height: --iconic-line-height-normal;
         padding: calc(var(--iconic-form-control-padding-inline) * 1) calc(var(--iconic-form-control-padding-inline) * 1);
 
@@ -27,7 +27,7 @@
         }
 
         &.iconic-button-large {
-            font-size: var(--iconic-font-size-lg);   
+            font-size: var(--iconic-font-size-lg);
         }
     }
 }
