@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IconicTag } from './tag';
+import { IconicButtonGroup } from './button-group';
 
-describe('IconicTag', () => {
-  let component: IconicTag;
-  let fixture: ComponentFixture<IconicTag>;
+describe('ButtonGroup', () => {
+  let component: IconicButtonGroup;
+  let fixture: ComponentFixture<IconicButtonGroup>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [IconicTag]
+      imports: [IconicButtonGroup]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(IconicTag);
+    fixture = TestBed.createComponent(IconicButtonGroup);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

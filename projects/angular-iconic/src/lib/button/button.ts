@@ -8,12 +8,9 @@ import { Component, HostBinding, input } from '@angular/core';
 })
 export class IconicButton {
 
- @HostBinding('class')
-  get hostClasses() {
-    return {
-      'iconic-button': true,
-      [`iconic-button-${this.size()}`]: true
-    };
+  @HostBinding('class')
+  get hostClasses(): string {
+    return `iconic-button-${this.size()}`;
   }
 
   size = input<'sm' | 'md' | 'lg'>('md');

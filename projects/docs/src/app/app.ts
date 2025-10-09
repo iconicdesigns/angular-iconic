@@ -1,10 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { IconicAvatarModule, IconicButtonModule, IconicCardModule, IconicTagModule } from 'angular-iconic';
+import { IconicAvatarModule, IconicButtonGroupModule, IconicButtonModule, IconicCardModule } from 'angular-iconic';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, IconicButtonModule, IconicAvatarModule, IconicTagModule, IconicCardModule],
+  imports: [RouterOutlet, IconicButtonModule, IconicAvatarModule, IconicCardModule, IconicButtonGroupModule],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

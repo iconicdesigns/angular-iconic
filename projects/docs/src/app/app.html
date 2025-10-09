@@ -1,7 +1,15 @@
 <div style="margin: 50px; display: flex; align-items: center; gap: 10px">
-    <button iconic-button size="sm">Button</button>
-    <button iconic-button size="md">Button</button>
-    <button iconic-button size="lg">Button</button>
+   <button iconic-button size="sm">Button</button>
+   <button iconic-button size="md">Button</button>
+   <button iconic-button size="lg">Button</button>
+</div>
+
+<div style="margin: 50px; display: flex; align-items: center; gap: 10px">
+   <iconic-button-group>
+      <button iconic-button>First</button>
+      <button iconic-button>Middle</button>
+      <button iconic-button>Last</button>
+   </iconic-button-group>
 </div>
 
 <div style="margin: 50px; display: flex; align-items: center; gap: 10px">
@@ -10,15 +18,19 @@
 
 
 <div style="margin: 50px; display: flex; align-items: center; gap: 10px">
-   <iconic-tag>
-      Tag
-   </iconic-tag>
-</div>
-
-
-<div style="margin: 50px; display: flex; align-items: center; gap: 10px">
    <iconic-card>
-      A clean, responsive card component used to display concise information such as titles, descriptions, and actions. Ideal for dashboards, lists, or previews.
+
+      <div class="flex flex-col gap-5 max-w-2xl">
+         <div class="flex-1">
+            A clean, responsive card component used to display concise information such as titles, descriptions, and
+            actions. Ideal for dashboards, lists, or previews.
+         </div>
+         <div class="flex-none">
+            <button iconic-button size="sm">Learn More</button>
+         </div>
+      </div>
+
+
    </iconic-card>
 </div>
 
