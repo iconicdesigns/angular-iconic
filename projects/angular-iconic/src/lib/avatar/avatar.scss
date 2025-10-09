@@ -8,11 +8,20 @@
     color: #ffffff;
     background-color: #23252e;
     user-select: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ffffff;
 
     span {
         display: inline-block;
         text-align: center;
         width: 100%;
         font-size: 1.25rem;
+    }
+
+    img {
+        border-radius: 50%;
+        object-fit: cover;
+        overflow: hidden;
     }
 }

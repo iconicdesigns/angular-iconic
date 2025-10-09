@@ -46,8 +46,10 @@
         border-radius: 999px;
     }
 
-    >.iconic-button-content-wrapper {
+    > .iconic-button-content {
         display: flex;
+        align-items: center;
+        justify-content: center;
         column-gap: calc(var(--iconic-spacing) * 2);
     }
 }

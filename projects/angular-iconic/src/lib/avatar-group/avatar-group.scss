@@ -1,0 +1,7 @@
+:host {
+    display: inline-flex;
+
+    ::ng-deep iconic-avatar:not(:first-child) {
+        margin-left: calc(var(--iconic-spacing) * -4);
+    }
+}

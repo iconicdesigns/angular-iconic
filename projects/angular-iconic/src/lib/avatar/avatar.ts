@@ -8,5 +8,6 @@ import { Component, input } from '@angular/core';
 })
 export class IconicAvatar {
   initials = input<string | undefined>(); 
+  image = input<string | undefined>(); 
   shape = input<'square' | 'rounded' | 'cicle'>('cicle'); 
 }
