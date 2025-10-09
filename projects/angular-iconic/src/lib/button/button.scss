@@ -1,0 +1,55 @@
+:host {
+
+    background-color: #2f323f;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2f323f;
+
+    font-family: inherit;
+    font-weight: 500;
+    color: white;
+
+    border-radius: var(--iconic-button-radius);
+
+    line-height: var(--iconic-line-height-normal);
+    padding: calc(var(--iconic-form-control-padding-inline) * 0.75) calc(var(--iconic-form-control-padding-inline) * 1);
+
+    user-select: none;
+    cursor: pointer;
+
+    transition: background-color 0.3s, border-color 0.3s;
+
+    &:disabled {
+        opacity: .5;
+        cursor: not-allowed;
+    }
+
+    &:hover:not(:disabled) {
+        background-color: #23252e;
+        border-color: #23252e;
+    }
+
+    &.iconic-button-sm {
+        font-size: var(--iconic-font-size-sm);
+    }
+
+    &.iconic-button-md {
+        font-size: var(--iconic-font-size-md);
+    }
+
+    &.iconic-button-lg {
+        font-size: var(--iconic-font-size-lg);
+    }
+
+    &[pill] {
+        border-radius: 999px;
+    }
+
+    > .iconic-button-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: calc(var(--iconic-spacing) * 2);
+    }
+}

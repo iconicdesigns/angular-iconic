@@ -1,0 +1,23 @@
+{
+  "name": "angular-iconic",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^20.3.0",
+    "@angular/core": "^20.3.0"
+  },
+  "scripts": {
+    "build:tokens": "style-dictionary build --config style-dictionary.config.mjs"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "sass": "./src/_index.scss"
+    }
+  },
+  "devDependencies": {
+    "style-dictionary": "^5.1.0"
+  }
+}

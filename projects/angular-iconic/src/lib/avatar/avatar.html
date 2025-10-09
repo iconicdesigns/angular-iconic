@@ -1,0 +1,7 @@
+@if (initials() && !image()) {
+<span>{{ initials() }}</span>
+}
+
+@if (image()) { 
+    <img [src]="image()" [alt]="initials()" />
+}

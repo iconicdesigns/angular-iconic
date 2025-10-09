@@ -1,0 +1,27 @@
+:host {
+    color: #ffffff;
+    background-color: #23252e;
+    user-select: none;
+    border-radius: var(--iconic-badge-radius);
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ffffff;
+    font-size: var(--iconic-font-size-xs);
+    padding: calc(var(--iconic-spacing) * 1) calc(var(--iconic-spacing) * 2);
+    text-align: center;
+    height: calc(var(--iconic-spacing) * 7);
+    min-width: calc(var(--iconic-spacing) * 7);
+
+    &[pill] {
+        border-radius: 999px;
+    }
+
+    >.iconic-badge-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        column-gap: calc(var(--iconic-spacing) * 2);
+    }
+}
