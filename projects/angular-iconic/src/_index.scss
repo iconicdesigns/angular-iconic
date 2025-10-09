@@ -1,6 +1,10 @@
 @forward './lib/styles/_tokens.scss';
 
 :root {
+
+  --iconic-color-primary: #6750a4;
+  --iconic-color-on-primary: #ffffff; 
+
   /* Primary */
   --md-sys-color-primary: #6750a4;
   --md-sys-color-on-primary: #ffffff;
@@ -41,7 +45,7 @@
   --iconic-form-control-padding-inline: 1em;
 
   --iconic-button-radius: 8px;
-  --iconic-badge-radius: 6px;
+  --iconic-badge-radius: 4px;
 
   --iconic-font-scale: 1rem; 
   --iconic-font-size-xs: round(calc(var(--iconic-font-size-sm) / 1.125), 1px);

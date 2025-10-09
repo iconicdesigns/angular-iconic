@@ -1,5 +1,6 @@
 :host {
 
+    position: relative;
     background-color: #2f323f;
 
     border-width: 1px;
@@ -46,10 +47,31 @@
         border-radius: 999px;
     }
 
-    > .iconic-button-content {
+    >.iconic-button-content {
         display: flex;
         align-items: center;
         justify-content: center;
         column-gap: calc(var(--iconic-spacing) * 2);
+    }
+
+    ::ng-deep iconic-badge.iconic-badge-xs {
+        /* Layout */
+        position: absolute;
+        right: -.6rem;
+        top: -.6rem;
+        padding: 0 calc(var(--iconic-spacing) * 1);
+        z-index: 100;
+
+        /* Size */
+        min-width: 1.5rem;
+        min-height: 1.5rem;
+
+        /* Font */
+        font-size: calc(var(--iconic-font-size-xs) / 1.25);
+
+        /* Border */
+        border-width: 2px;
+        border-style: solid;
+        border-color: #ffffff;
     }
 }
